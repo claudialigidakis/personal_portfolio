@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Personal Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script>
+</head>
+
+  <body>
+    <div id="top-page" class="uk-section uk-section-default">
+      <div class="uk-container uk-container-expand">
+        <nav id="navbar" class="uk-navbar-container uk-margin uk-navbar-transparent" uk-navbar>
+          <div class="uk-navbar-center">
+            <div class="uk-navbar-center-left">
+              <div>
+                <ul class="uk-navbar-nav">
+                  <li class="uk-active"><a href="#portfolio-page" uk-scroll>See my Work</a></li>
+              </div>
+            </div>
+            <a class="uk-navbar-item uk-logo" href="#top-page" uk-scroll>Logo</a>
+            <div class="uk-navbar-center-right">
+              <div>
+                <ul class="uk-navbar-nav">
+                  <li class="uk-active"><a href="#contact-page" uk-scroll>Let's get in Touch</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div id="typeWriter" class="uk-card-body">
+          <div>
+            <span id="typeWriter">Hello, my name is Claudia.</span>
+            <br>
+            <span id="typeWriter2">I am a Web Development Student at Galvanize ♥<span>|</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="portfolio-page" class="uk-section uk-section-muted">
+      <h1 class="uk-heading-line uk-text-center"><span>My Portfolio</span></h1>
+      <div class="uk-slidenav-container">
+        <div uk-slider="center: true">
+          <div class="uk-position-relative uk-visible-toggle uk-dark">
+            <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+              <li>
+                <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                    <img src="http://bandipoly.co.za/wp-content/uploads/2017/05/comingsoon.png" alt="">
+                  </div>
+                  <div class="uk-card-body">
+                    <h2 class="uk-card-title uk-text-center">Project One</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                    <img src="http://bandipoly.co.za/wp-content/uploads/2017/05/comingsoon.png" alt="">
+                  </div>
+                  <div class="uk-card-body">
+                    <h2 class="uk-card-title uk-text-center">Project Two</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                    <img src="http://bandipoly.co.za/wp-content/uploads/2017/05/comingsoon.png" alt="">
+                  </div>
+                  <div class="uk-card-body">
+                    <h2 class="uk-card-title uk-text-center">Project Three</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                    <img src="http://bandipoly.co.za/wp-content/uploads/2017/05/comingsoon.png" alt="">
+                  </div>
+                  <div class="uk-card-body">
+                    <h2 class="uk-card-title uk-text-center">Project Four</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                    <img src="http://bandipoly.co.za/wp-content/uploads/2017/05/comingsoon.png" alt="">
+                  </div>
+                  <div class="uk-card-body">
+                    <h2 class="uk-card-title uk-text-center">Project Five</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="uk-card uk-card-default">
+                  <div class="uk-card-media-top">
+                    <img src="http://bandipoly.co.za/wp-content/uploads/2017/05/comingsoon.png" alt="">
+                  </div>
+                  <div class="uk-card-body">
+                    <h2 class="uk-card-title uk-text-center">Project Six</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="contact-page" class="uk-section uk-section-default">
+      <div class="uk-container">
+        <h1 class="uk-heading-line uk-text-center"><span>Get In Touch</span></h1>
+        <div id="social-links" class="uk-text-center">
+          <a href="mailto:claudialigidakis@gmail.com" class="fa fa-google"></a>
+          <a href="https://www.linkedin.com/in/claudia-ligidakis/" class="fa fa-linkedin"></a>
+          <a href="https://www.instagram.com/claudialigidakis/" class="fa fa-instagram"></a>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
